@@ -1,0 +1,21 @@
+{
+  "name": "pokemon-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon api/api.js"
+  },
+  "keywords": [],
+  "author": "alextina - castilloavilaa@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.12.1",
+    "graphql": "^16.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
