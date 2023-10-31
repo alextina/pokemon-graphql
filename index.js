@@ -1,5 +1,5 @@
-import { ApolloServer, gql } from "apollo-server";
-import pokemons from "./pokemons.json" assert { type: "json" };
+const { ApolloServer, gql } = require("apollo-server");
+const pokemons = require("./pokemons.json");
 
 pokemons.forEach((pokemon) => {
     pokemon.id = pokemon.num;
